@@ -5,7 +5,7 @@
 		<meta charset="utf-8" />
 		<title>StackTc</title>
 		<link rel="shortcut icon" href="images/head.ico" />
-		<link rel="stylesheet" type="text/css" href="css/normalize.css" />
+		<link rel="stylesheet" type="text/css" href="css/normalize.css"/>
 		<link rel="stylesheet" type="text/css" href="bootstrap-3.3.0-dist/dist/css/bootstrap.min.css" />
 		<link rel="stylesheet" type="text/css" href="font-awesome/css/font-awesome.min.css" />
 		<link rel="stylesheet" type="text/css" href="css/animate.css" />
@@ -15,10 +15,11 @@
         	时间：2016-11-30
         	描述：
         -->
-		<script type="text/javascript" src="js/jquery.js"></script>
-		<script type="text/javascript" src="js/modernizr.custom.97074.js"></script>
+		<script src="js/jquery.js"></script>
+		<script src="js/modernizr.custom.97074.js"></script>
 		<script type="text/javascript" src="bootstrap-3.3.0-dist/dist/js/bootstrap.min.js"></script>
 		<script type="text/javascript" src="js/jquery.singlePageNav.min.js"></script>
+		
 	</head>
 
 	<body>
@@ -41,15 +42,15 @@
 					<div class="collapse navbar-collapse navbar-right " id="dropdown-box-1">
 						<ul class="nav navbar-nav">
 							<li class="active">
-								<a href="#home"><span class="glyphicon glyphicon-home"></span> HOME</a>
+								<a href="#home"><span class="glyphicon glyphicon-home"></span>  HOME</a>
 							</li>
 							<li class="">
-								<a href="#about"><span class="glyphicon glyphicon-search" style="font-size:13px"></span> ABOUT</a>
+								<a href="#about"><span class="glyphicon glyphicon-search" style="font-size:13px"></span>  ABOUT</a>
 							</li>
-							<li>
-								<a href="#works">Portfolio</a>
-							</li>
-
+							<li>	
+									<a href="#works">Portfolio</a>
+								</li>
+								
 							<li class="dropdown">
 								<a href="#" class="dropdown-toggle" data-toggle="dropdown">
 									SERVICES <span class="caret"></span>
@@ -67,8 +68,8 @@
 								</ul>
 							</li>
 							<li>
-								<a href="#contact"><span class="glyphicon glyphicon-phone-alt"></span> CONTACT</a>
-							</li>
+									<a href="#contactus"><span class="glyphicon glyphicon-phone-alt"></span>  CONTACT</a>
+								</li>
 						</ul>
 					</div>
 				</div>
@@ -78,56 +79,56 @@
 			<div class="container">
 
 				<div class="myPicture">
-					<img src="images/tc.jpg" />
+					
 				</div>
 				<div class="slogan">
-					<h2 class="wow bounceInDown">    IM StackTc </h2>
-					<h4 class="wow fadeInLeft">EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT</h4>
+					<h2> </span>   IM StackTc </h2>
+					<h4>EXCEPTEUR SINT OCCAECAT CUPIDATAT NON PROIDENT</h4>
 				</div>
 				<div class="btn-circle-scroll fadeIn">
-					<a href="#contact" class="btn-circle"><i class="fa fa-angle-double-down animated"></i></a>
+					<a href="#section-footer" class="btn-circle"><i class="fa fa-angle-double-down animated"></i></a>
 				</div>
 			</div>
 		</section>
 		<section class="" id="about">
 			<div class="container">
-				<h2 class="wow fadeInLeft">About Me</h2>
-				<span class="name wow fadeInRight">StackTc</span>
+				<h2>About Me</h2>
+				<span class="name">StackTc</span>
 				<span class="line"></span>
 				<p>In order to be a Full Stack Developer,Practice everyday.</p>
 				<p>To be happy,to be stronger,to finish my dream,I have to work harder.</p>
-				<a href="#" class="resume wow zoomInDown">我的简历</a>
+				<a href="#" class="resume">我的简历</a>
 				<div class="ability">
 					<div class="row">
 						<div class="col-md-2">
-
+							
 						</div>
-						<div class="col-md-2 col-xs-6">
+						<div class="col-md-2">
 							<div class="circle">
 								<div class="circle-inner">J S</div>
 							</div>
 							<span>&nbsp;&nbsp;Javascript + Jquery</span>
 						</div>
-						<div class="col-md-2 col-xs-6">
+						<div class="col-md-2">
 							<div class="circle">
-								<div class="circle-inner">&lt; &frasl; &gt;</div>
+								<div class="circle-inner">&lt;    &frasl;	&gt;</div>
 							</div>
 							<span>Css + Html</span>
 						</div>
-						<div class="col-md-2 col-xs-6">
+						<div class="col-md-2">
 							<div class="circle">
 								<div class="circle-inner">&zeta;</div>
 							</div>
 							<span>C + Java</span>
 						</div>
-						<div class="col-md-2 col-xs-6">
+						<div class="col-md-2">
 							<div class="circle">
 								<div class="circle-inner">&Psi;</div>
 							</div>
 							<span>&nbsp;&nbsp;Python</span>
 						</div>
 						<div class="col-md-2">
-
+							
 						</div>
 					</div>
 				</div>
@@ -145,7 +146,7 @@
 					</script>
 					<h3>Portfolio</h3>
 					<ul id="da-thumbs" class="da-thumbs">
-						<li class="wow fadeInLeftBig">
+						<li>
 							<a href="images/a1.jpg">
 								<img src="images/a1.jpg" />
 								<div>
@@ -153,7 +154,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInDownBig">
+						<li>
 							<a href="images/a2.jpg">
 								<img src="images/a2.jpg" />
 								<div>
@@ -161,7 +162,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInRightBig">
+						<li>
 							<a href="images/a3.jpg">
 								<img src="images/a3.jpg" />
 								<div>
@@ -169,7 +170,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInLeftBig">
+						<li>
 							<a href="images/a4.jpg">
 								<img src="images/a4.jpg" />
 								<div>
@@ -185,7 +186,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInRightBig">
+						<li>
 							<a href="images/a6.jpg">
 								<img src="images/a6.jpg" />
 								<div>
@@ -193,7 +194,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInLeftBig">
+						<li>
 							<a href="images/a7.jpg">
 								<img src="images/a7.jpg" />
 								<div>
@@ -201,7 +202,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInUpBig">
+						<li>
 							<a href="images/a2.jpg">
 								<img src="images/a2.jpg" />
 								<div>
@@ -209,7 +210,7 @@
 								</div>
 							</a>
 						</li>
-						<li class="wow fadeInRightBig">
+						<li>
 							<a href="images/a3.jpg">
 								<img src="images/a3.jpg" />
 								<div>
@@ -228,7 +229,7 @@
 						});
 					</script>
 				</div>
-			</div>
+		</div>
 		</section>
 
 		<section>
@@ -238,8 +239,9 @@
 						<h3>SERVICE</h3>
 						<h4>Provide service on what you need ,make it more and more perfect.</h4>
 						<p>Customer is god,so in order to get customer's requred.
-							<br>we will try our best to finish it .Not only finish,<br> but also perfect.Let's try it together.
-						</p>
+						<br>we will try our best to finish it .Not only finish,<br>
+						but also perfect.Let's try it together.
+					</p>
 					</div>
 				</div>
 				<div class="content">
@@ -252,25 +254,17 @@
 										<p>I can make a beautiful html page by css3 html and js for seen,I also can make the page for PC and phone together.</p>
 										<a href="#">Read More</a>
 									</div>
-									<div class="info-pic wow fadeInLeftBig"><img src="images/phonepad.png" alt="" /></div>
+									<div class="info-pic"><img src="images/phonepad.png"  alt="" /></div>
 									<div class="clearfix"></div>
 								</div>
-							</div>
+							</div>	
 						</div>
-						<div class="copyrights">
-							<a href="http://www.cssmoban.com/">&nbsp;</a>
-						</div>
-						<div class="copyrights">
-							<a href="http://www.cssmoban.com/">&nbsp;</a>
-						</div>
+						<div class="copyrights"><a href="http://www.cssmoban.com/">&nbsp;</a></div>
+						<div class="copyrights"><a href="http://www.cssmoban.com/">&nbsp;</a></div>
 						<div class="col-md-4">
 							<ul class="nav nav-tabs nav2" role="tablist">
-								<li role="presentation" class="active">
-									<a href="#" aria-controls="tab-first" role="tab" data-toggle="tab">Trending</a>
-								</li>
-								<li role="presentation">
-									<a href="#" aria-controls="second-first" role="tab" data-toggle="tab">Recent Posts</a>
-								</li>
+								<li role="presentation" class="active"><a href="#" aria-controls="tab-first" role="tab" data-toggle="tab">Trending</a></li>
+								<li role="presentation" ><a href="#" aria-controls="second-first" role="tab" data-toggle="tab">Recent Posts</a></li>
 							</ul>
 							<div class="tab-content">
 								<div role="tabpanel" class="tab-pane active re-pad2" id="tab-first">
@@ -340,105 +334,24 @@
 								</div>
 							</div>
 						</div>
-						
-						<div class="btn-circle-scroll fadeIn" style="text-align: center;">
-								<a href="#home" class="btn-circle" style="color:#B02424;"><i class="fa fa-angle-double-up animated"></i></a>
-							</div>
-						<div class="clearfix"></div>
 					</div>
-
 				</div>
-
+					
+				
 			</div>
 		</section>
 		<script>
-			$('.nav').singlePageNav({
-				offset: $('.nav').outerHeight(),
-				filter: ':not(.external)',
-				updateHash: true,
-				beforeStart: function() {
-					console.log('begin scrolling');
-				},
-				onComplete: function() {
-					console.log('done scrolling');
-				}
-			});
-			$('.btn-circle-scroll').singlePageNav({
-				offset: 0,
-				filter: ':not(.external)',
-				updateHash: true,
-				beforeStart: function() {
-					console.log('begin scrolling');
-				},
-				onComplete: function() {
-					console.log('done scrolling');
-				}
-			});
+		$('.nav').singlePageNav({
+                offset: $('.nav').outerHeight(),
+                filter: ':not(.external)',
+                updateHash: true,
+                beforeStart: function() {
+                    console.log('begin scrolling');
+                },
+                onComplete: function() {
+                    console.log('done scrolling');
+                }
+            });
 		</script>
-		<section>
-			<div id="contact">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-4">
-							<h4 class="title">合作伙伴</h4>
-							<div class="content recent-post">
-								<div class="recent-single-post" style="padding-bottom:10px;">
-									<p style="padding-left:25px;">腾讯</p>
-								</div>
-								<div class="recent-single-post" style="padding-bottom:10px" ;>
-									<p style="padding-left:25px;">Google</p>
-								</div>
-								<div class="recent-single-post" style="padding-bottom:10px" ;>
-									<p style="padding-left:25px;">阿里巴巴</p>
-								</div>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<h4 class="title">我们用到的技术</h4>
-							<div class="tag-cloud">
-								<a>java</a>
-								<a>html</a>
-								<a>css</a>
-								<a>jsp</a>
-								<a>jquery</a>
-								<a>node.js</a>
-								<a>bootstrap</a>
-								</br>
-								<a>mysql</a>
-								<a>PHP</a>
-								<a>GitHub</a>
-								<a>jsp</a>
-							</div>
-						</div>
-						<div class="col-sm-4">
-							<h4 class="title">联系我们</h4>
-							<div class="content recent-post">
-								<p style="padding-left:25px;">StackTc&nbsp;&nbsp;&nbsp;353071437@qq.com</p>
-
-							</div>
-						</div>
-					</div>
-				</div>
-			</div>
-
-			<div class="copyright">
-				<div class="container">
-					<div class="row">
-						<div class="col-sm-12">
-							<span style="padding-right:10px;">Copyright © Laravel 中文网</span>|
-							<span style="padding-right:10px;">京公网安备11010802014853</span>|
-							<span style="padding-right:10px;">京公网安备11010802014853</span>|
-						</div>
-					</div>
-				</div>
-			</div>
-		</section>
-
-		<script src="js/wow.min.js"></script>
-		<script>
-			new WOW().init();
-		</script>
-		<script type="text/javascript" src="js/style.js" ></script>
 	</body>
-
 </html>

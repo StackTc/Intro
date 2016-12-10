@@ -141,11 +141,6 @@ h1.b1,h2.b2,h3.b3 {
 	border-radius: 50%;
 	background:#fff;
 }
-.myPicture img{
-	width:200px;
-	height:200px;
-	border-radius: 50%;
-}
 .banner .slogan h2 {
 	font-family: Trebuchet MS, snas-serif;
 	color: #fff;
@@ -237,7 +232,7 @@ footer p {
 	font-size:30px;
 }
 #about .resume{
-	font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
+	font-family:"Î¢ÈíÑÅºÚ";
 	line-height:50px;
 	font-size:16px;
 	display:block;
@@ -255,7 +250,7 @@ footer p {
 	transition: all .3s ease-in-out;
 }
 #about .resume:hover{
-	font-family:"Î¢ï¿½ï¿½ï¿½Åºï¿½";
+	font-family:"Î¢ÈíÑÅºÚ";
 	background:#424242;
 	color:#fff;
 	border-radius:40px;
@@ -264,7 +259,7 @@ footer p {
 	position:relative;
 	margin:0 auto;
 	margin-top:10px;
-	margin-bottom:10px;
+	margin-bottom:20px;
 	width:100px;
 	height:100px;
 	border:1px dashed #424242;
@@ -390,7 +385,7 @@ footer p {
 #service .content .information{
 	margin:40px 0 2em 0;
 	padding:2em;
-	box-shadow:0 0 4px #827f7f;
+	box-shadow:0 0 2px #A8A8A8;
 }
 #service .content .information h4{
 	font-family:inherit;
@@ -473,72 +468,4 @@ footer p {
 .tab-pic-info {
     float: left;
     width: 80%;
-}
-#service .btn-circle:hover ,.btn-circl:focus{
-	color:#fff;
-	background:rgba(255,200,200,0.75)
-}
-/*contact*/
-#contact{
-	background: #202020;
-	padding: 35px 0 0;
-	color: #959595;
-}
-.title {
-	color: #fff;
-	border-bottom: 1px solid #303030;
-	padding-bottom: 7px;
-	margin-top: 0;
-	margin-bottom: 21px;
-	position: relative;
-	font-size: 1.5em;
-}
-
-.container {
-	background:
-}
-
-.title:after {
-	content: "";
-	width: 90px;
-	height: 1px;
-	background: #f4645f;
-	position: absolute;
-	left: 0;
-	bottom: -1px;
-}
-
-.page-header p {
-	padding-left: 8px;
-}
-
-.recent-single-post {
-	margin-bottom: 14px;
-	border-bottom: 1px dashed #303030;
-}
-
-.tag-cloud a {
-	cursor:pointer	; 
-	text-decoration : none;
-	border: 1px solid #303030;
-	color: #959595;
-	display: inline-block;
-	line-height: 1.5em;
-	margin: 0 7px 7px 0;
-	padding: 2px 13px;
-	text-decoration: none;
-}
-
-.tag-cloud a:hover {
-	background: #f4645f;
-	color: #fff;
-}
-.copyright{
-	border-top:1px solid #303030;
-	font-size:13px;
-	padding-top:15px;
-	padding-bottom:15px;
-	text-align:center;
-	color:#555;
-	background:#111; 
 }
